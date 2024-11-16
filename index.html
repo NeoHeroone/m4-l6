@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <input type="text" placeholder="Add a new task" />
+        <button class="plus">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
+        </button>
+      </form>
+      <div class="all-todo-wrapper">
+        <div class="tasks">
+          <h3>Tasks to do - <span class="count">0</span></h3>
+          <ul class="todo-wrapper"></ul>
+        </div>
+        <div class="completed">
+          <h3>Done - <span class="count-completed">0</span></h3>
+          <ul class="completed-wrapper"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
